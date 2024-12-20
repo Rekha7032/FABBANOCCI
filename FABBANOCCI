@@ -1,0 +1,20 @@
+# FABBANOCCI
+#OUTPUT:
+enter the count10
+fobonnacci series
+0 1 1 2 3 5 8 13 21 34 
+Process finished with exit code 0
+#PROGRAMM
+x=int(input('enter the count'))
+print('fobonnacci series')
+num1=0
+num2=1
+count=2
+print(num1,end=' ')
+print(num2,end=' ')
+while count<x:
+    result=num1+num2
+    print(result,end=' ')
+    num1=num2
+    num2=result
+    count=count+1
